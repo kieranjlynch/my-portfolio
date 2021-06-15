@@ -29,13 +29,13 @@ form > input {
   padding: 10px;
 }
 
-.center-submit-button {
+.contact-submit-btn {
   text-align: center;
 }
 
 button {
   width: 30vw;
-  background-color: #2EB67D;
+  background-color: $cta-button-color;
   border: 0;
   box-shadow: none;
   padding: 10px;
