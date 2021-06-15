@@ -93,6 +93,11 @@ nav > a:hover {
   margin-right: auto;
 }
 
+footer {
+  background-color: lightgrey;
+  width: 100vw;
+}
+
 * {
   margin: 0;
   padding: 0;
