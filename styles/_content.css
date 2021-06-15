@@ -1,5 +1,3 @@
-@import "./_variables.scss";
-
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +7,6 @@
 }
 
 .tagline {
-  margin-left: 5%; 
+  margin-left: 5%;
   font-size: 25px;
 }

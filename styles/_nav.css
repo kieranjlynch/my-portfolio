@@ -1,5 +1,3 @@
-@import "./_variables.scss";
-
 nav {
   display: grid;
   width: 100vw;
