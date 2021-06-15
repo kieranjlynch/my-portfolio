@@ -1,4 +1,14 @@
 footer {
+  display: flex;
   background-color: lightgrey;
   width: 100vw;
+  height: 10vh;
+}
+
+.footer__linkedin {
+  height: 50px;
+}
+
+.footer__github {
+  height: 50px;
 }
