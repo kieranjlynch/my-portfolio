@@ -4,6 +4,9 @@ footer {
   background-color: lightgrey;
   width: 100vw;
   height: 10vh;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
 }
 
 .footer__linkedin {
