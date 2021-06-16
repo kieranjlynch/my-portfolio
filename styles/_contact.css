@@ -1,37 +1,32 @@
-form {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  margin: 10% auto;
-  width: 30vw;
-  text-align: end;
-  grid-template-rows: 30px 30px 30px;
-  grid-row-gap: 25px;
-  grid-column-gap: 15px;
+.main__contactcontainer {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  height: 20vh;
 }
-
-.center {
-  align-self: center;
+.main__contactcontainer form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
 }
-
-.notcenter {
-  margin-top: 10px;
-}
-
-form > input {
+.main__contactcontainer form input {
   border-radius: 10px;
   background-color: #e0e0e0;
   border: 0;
   box-shadow: none;
   padding: 10px;
+  width: 30vw;
+  margin-bottom: 3vh;
 }
-
-.contact-submit-btn {
+.main__contactcontainer form .contact__label {
+  text-align: left;
+  padding-bottom: 1vh;
+}
+.main__contactcontainer form contact-submit-btn {
   text-align: center;
 }
-
-button {
+.main__contactcontainer form button {
   width: 30vw;
   background-color: #2EB67D;
   border: 0;

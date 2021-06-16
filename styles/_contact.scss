@@ -1,45 +1,45 @@
 @import "./_variables.scss";
 
-form {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  margin: 10% auto;
-  width: 30vw;
-  text-align: end;
-  grid-template-rows: 30px 30px 30px;
-  grid-row-gap: 25px;
-  grid-column-gap: 15px;
+.main__contactcontainer {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  height: 20vh;
-}
 
-.center {
-  align-self: center;
-}
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
 
-.notcenter {
-  margin-top: 10px;
-}
+    input {
+      border-radius: 10px;
+      background-color: rgb(224, 224, 224);
+      border: 0;
+      box-shadow: none;
+      padding: 10px;
+      width: 30vw;
+      margin-bottom: 3vh;
+    }
 
-form > input {
-  border-radius: 10px;
-  background-color: rgb(224, 224, 224);
-  border: 0;
-  box-shadow: none;
-  padding: 10px;
-}
+    .contact__label {
+      text-align: left;
+      padding-bottom: 1vh;
+    }
+    
+    contact-submit-btn {
+      text-align: center;
+    }
 
-.contact-submit-btn {
-  text-align: center;
-}
-
-button {
-  width: 30vw;
-  background-color: $form__button;
-  border: 0;
-  box-shadow: none;
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  font-size: 20px;
+    button {
+      width: 30vw;
+      background-color: $form__button;
+      border: 0;
+      box-shadow: none;
+      padding: 10px;
+      border-radius: 10px;
+      color: white;
+      font-size: 20px;
+    }
+  }
 }
