@@ -11,14 +11,18 @@ footer {
   bottom: 0px;
 }
 
-.footer__linkedin {
-  height: 50px;
+.footer__imagecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  width: 50vw;
+  margin-top: 2vh;
+  margin-left: 25vw;
 }
 
-.footer__github {
-  height: 50px;
-}
-
-.footer__twitter {
-  height: 50px;
+.fab {
+  background-color: black;
+  height: 4vh;
+  width: 4vw;
 }
