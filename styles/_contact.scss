@@ -1,4 +1,5 @@
 @import "./_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap');
 
 .main__contactcontainer {
   height: 80vh;
@@ -25,6 +26,7 @@
     .contact__label {
       text-align: left;
       padding-bottom: 1vh;
+      font-family: 'Open Sans', sans-serif;
     }
     
     contact-submit-btn {
