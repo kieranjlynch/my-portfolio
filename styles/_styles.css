@@ -94,6 +94,8 @@ nav > a:hover {
 }
 
 footer {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   background-color: lightgrey;
   width: 100vw;
   height: 10vh;
