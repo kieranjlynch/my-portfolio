@@ -1,5 +1,5 @@
 @import "./_variables.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap');
 
 .main__container {
   width: 100vw;
@@ -15,4 +15,7 @@
   width: 50vw;
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
