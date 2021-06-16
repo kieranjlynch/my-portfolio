@@ -1,5 +1,14 @@
-projects__placeholder {
-  height: 50vh;
+.main__container {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__placeholder {
+  height: 60vh;
   width: 50vw;
   background-color: black;
+  color: white;
 }

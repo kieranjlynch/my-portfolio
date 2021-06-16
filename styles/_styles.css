@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap");
 form {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -70,6 +71,7 @@ nav > h1 {
   font-size: 50px;
   margin-left: 5%;
   margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav > a {
@@ -86,10 +88,19 @@ nav > a:hover {
   padding: 15px;
 }
 
-projects__placeholder {
-  height: 50vh;
+.main__container {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__placeholder {
+  height: 60vh;
   width: 50vw;
   background-color: black;
+  color: white;
 }
 
 footer {
@@ -114,7 +125,7 @@ footer {
 }
 
 .fab {
-  background-color: black;
+  color: white;
   height: 4vh;
   width: 4vw;
 }

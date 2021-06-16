@@ -1,5 +1,6 @@
 @import "./_variables.scss";
 
+
 footer {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -22,7 +23,7 @@ footer {
 }
 
 .fab {
-  background-color: black;
+  color: white;
   height: 4vh;
   width: 4vw;
 }
