@@ -73,6 +73,16 @@
   height: 80vh;
   width: 20%;
 }
+.cv__mainbody #sidebar .fa-file-pdf {
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+.cv__mainbody #sidebar .fa-file-word {
+  height: 50px;
+  width: 50px;
+  color: white;
+}
 .cv__mainbody h4 {
   margin-top: 5vh;
   margin-left: 2vw;
