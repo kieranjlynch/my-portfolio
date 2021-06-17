@@ -2,10 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap');
 
 .cv__mainbody {
-  height: 80vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 10vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+
+  .CV__articlecontainer {
+    height: 100%;
+    width: 80%;
+    margin-top: 5vh;
+
+    .Dev__icons {
+      height: 100px;
+      width: 150px;
+      margin-left: 3%;
+    }
+
+    .React__icon {
+      height: 60px;
+      width: 150px;
+    }
+  }
 
   article {
     height: 80vh;
@@ -13,31 +33,53 @@
   }
 
   #sidebar {
-    background-color: $cv__sidebar;
-    height: 80vh;
+    background-color: $form__button;
+    height: 78vh;
     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sidebar__imagecontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 40vh;
+      margin-bottom: 20%;
+
+      h3 {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 20px;
+      }
+    }
 
     .fa-file-pdf {
-      height: 50px;
-      width: 50px;
+      height: 80px;
+      width: 80px;
       color: white;
     }
 
     .fa-file-word {
-      height: 50px;
-      width: 50px;
+      height: 80px;
+      width: 80px;
       color: white;
     }
 
   }
   
   h4 {
-    margin-top: 5vh;
+    margin-left: 2vw;
+  }
+
+  h5 {
     margin-left: 2vw;
   }
   
   li {
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
   
 }
