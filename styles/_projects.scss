@@ -11,7 +11,10 @@
 .projects__placeholder {
   height: 60vh;
   width: 50%;
-  border-color: rgb(136, 132, 131);
+  border-style:solid;
+  border-width:5px;  
+  border-color:red $form__button $navbar__hover--color $cv__sidebar;
+  border-radius: 15px;
 }
 
 .projects__memoji {
