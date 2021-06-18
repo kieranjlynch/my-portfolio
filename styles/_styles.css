@@ -125,12 +125,15 @@
 }
 .cv__mainbody h4 {
   margin-left: 2vw;
+  font-family: "Open Sans", sans-serif;
 }
 .cv__mainbody h5 {
   margin-left: 2vw;
+  font-family: "Open Sans", sans-serif;
 }
 .cv__mainbody li {
   margin-left: 4vw;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -166,7 +169,7 @@ nav > a:hover {
 }
 
 h3 {
-  padding-bottom: 2vh;
+  padding-bottom: 1%;
 }
 
 .main__container {
@@ -184,8 +187,6 @@ h3 {
   border-color: red #2EB67D #36C5F0 #ECB22E;
   border-radius: 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .projects__placeholder .projects__portfolioimage {
   height: 100%;
@@ -195,14 +196,15 @@ h3 {
 
 .projects__memoji {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   height: 60vh;
   width: 25%;
 }
 
 .projects__memojiimage {
-  height: 50%;
-  width: 50%;
-  margin: auto;
+  height: 40%;
+  width: 40%;
 }
 
 footer {

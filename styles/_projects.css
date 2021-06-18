@@ -14,8 +14,6 @@
   border-color: red #2EB67D #36C5F0 #ECB22E;
   border-radius: 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .projects__placeholder .projects__portfolioimage {
   height: 100%;
@@ -25,12 +23,13 @@
 
 .projects__memoji {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   height: 60vh;
   width: 25%;
 }
 
 .projects__memojiimage {
-  height: 50%;
-  width: 50%;
-  margin: auto;
+  height: 40%;
+  width: 40%;
 }
