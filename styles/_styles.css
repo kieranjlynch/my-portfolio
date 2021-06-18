@@ -72,15 +72,20 @@
   width: 80%;
   margin-top: 5vh;
 }
-.cv__mainbody .CV__articlecontainer .Dev__icons {
+.cv__mainbody .CV__articlecontainer .CV__devIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 100px;
+  margin-left: 3%;
+}
+.cv__mainbody .CV__articlecontainer .Dev__icons {
+  height: 98px;
   width: 150px;
-  margin-left: 2%;
 }
 .cv__mainbody .CV__articlecontainer .React__icon {
-  height: 70px;
-  width: 160px;
-  background-color: black;
+  height: 98px;
+  width: 150px;
 }
 .cv__mainbody article {
   height: 80vh;

@@ -15,16 +15,22 @@
     width: 80%;
     margin-top: 5vh;
 
-    .Dev__icons {
+    .CV__devIcons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
       height: 100px;
+      margin-left: 3%;
+    }
+
+    .Dev__icons {
+      height: 98px;
       width: 150px;
-      margin-left: 2%;
     }
 
     .React__icon {
-      height: 70px;
-      width: 160px;
-      background-color: black;
+      height: 98px;
+      width: 150px;
     }
   }
 
