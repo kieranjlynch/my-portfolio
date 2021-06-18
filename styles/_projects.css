@@ -13,6 +13,14 @@
   border-width: 5px;
   border-color: red #2EB67D #36C5F0 #ECB22E;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects__placeholder .projects__portfolioimage {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .projects__memoji {
